@@ -1,0 +1,69 @@
+online compiler:
+	www.cocalc.com
+	sign in google
+	select julia at middle of the page
+
+sublime text editor
+
+	multiple lines program type
+
+	filename.jl (save your folder)
+
+	file explorer : address bar : selct : cmd type enter
+
+	command prompt:
+	c:/juliaprogram> julia filename.jl
+
+	see your output
+
+julia REPL :
+	single line command
+
+example program:
+================
+x=12
+println(x)
+println(typeof(x))
+
+sname="pravin"
+println("student name: $sname")
+ftype=typeof(sname)
+println("datatype of sname: $ftype")
+
+mark=99.4
+println(mark)
+println("student mark: $mark")
+ftype=typeof(mark)
+println("datatype of mark: $ftype")
+
+ini='S'
+println("char value :  $ini");
+ftype=typeof(ini)
+println("ini variable type :  $ftype");
+
+res=12<100
+println("boolean type : $res")
+ftype=typeof(res)
+println("res dataype : $ftype")
+
+
+# Int64  String  Float64  Char Bool
+
+
+variable:
+
+	the value change during execution of the program.
+
+variable naming rules:
+	*) must start with alphabets (a-z)
+		or _ (underscore)
+	*) do not start with numbers (0-9)
+	 but we can start second letter onwards
+	*) keywords or reserve words not allowed 
+	ex: if for else while class .......
+	*) special chars not allowed in variablename except _
+	ex:~!@#$%^&*()-=+|<>?:"{}[];',./ 
+	*) space is not allowed in variable name.
+	*) variable name must be unique.
+	
+	

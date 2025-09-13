@@ -1,0 +1,68 @@
+julia introduction:
+===================
+	in 2009 initial version (development started)
+
+	in 2012 completed.
+
+        2012 onwards using developers,computer scientist and mathematicians.
+		
+	open source and free
+
+	
+	developed in MIT in the applied computing group.
+
+	The Julia Programming language was invented by
+
+	1. Jeff Bezanson
+	2. stefan karpinski
+	3. Viral B. Shah
+	4. Alan Edelman
+	
+	- julia is a high level programming language like python with the  peformance of a fast language like c.
+	- julia is a great choice for scientific computing.
+
+	*) Excellent performance
+	*) N-dimensinal arrays
+	*) parallel and distributed computing
+	
+	and it is also nice environment for general programming with:
+
+	*) an active ecosystem of packages and good tools for managing 
+	
+	*) a rich type of system
+
+	*) Iterators, asynchronous tasks and coroutines.
+
+	*) popularity is incrasing in Technical, data science and high performance computing data.
+	*) high level flexible programming language.
+	*) easy to learn and fast to execute.
+	*) Faster than current programming language.(R,python,matlab 
+	*) julia joining or concatenation operator : *
+	*) julia is open source free.
+
+environment setup:
+==================
+	
+	www.julialang.org/downloads
+
+	don't forget tick to add path.
+
+julia has two modes :
+====================
+
+	1) interactive mode (REPL)
+		R- read
+		E - evalute
+		p - print
+		L - loop
+		single line command		
+	2) non- interactive mode
+		- script file mode
+		meaning(multiple line codes)
+		.jl extension
+		
+		vs code or atom or sublime text	
+
+
+
+	

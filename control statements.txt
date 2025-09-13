@@ -1,0 +1,104 @@
+common control statements in julia:
+===================================
+
+1) conditional statements:
+
+	syntax:
+	if condition
+	   statement
+	elseif condition
+	   statement
+	elseif condition
+	   statement
+	...	
+	else
+	   else statement
+	end
+
+	ex:
+	x=10
+	if x>5
+	   println("x is greater than 5")
+	elseif x==5
+	   println("x is equal to 5)
+	else
+	   println(" x is less than 5")
+	end
+
+2) looping constructs
+	for  : for iterating over collection or ranges or arrays or tuple or strings. 
+	
+	basic syntax:
+
+	for iterator in collection
+	
+	# statements to execute for each statement
+
+	end
+
+	ex:1
+	for i in 1:10
+	println("$i")
+	end
+
+	ex:2
+	for i = 1:10
+	println("$i")
+	end
+
+	ex:3 (decrement)
+	for i = 10:-1:1
+	println("$i")
+	end
+	note: -1 is step value
+
+	ex:4 (decrement)
+
+	for i in reverse(1:10)
+	println(" $i ")
+	end
+
+
+	explanation:
+
+	*) for : the keyword indicating  the start of a for loop
+
+	*) iterator: A variable that takes on the value of each in the collection during each iteration.
+
+	*) in: The keyword used to specify the collection to iterate over.
+
+you can also use = instead of in for ranges.
+	ex:
+	for i = 1:10
+but in is generally preferred for readability and consistency with other iterable types.
+
+	*) collection: the iterable objects that the loop will iterate through.
+	ex: 1:10
+	    [11,22,33]	
+	    ("a","b","c")
+	    "pravinkumar"
+	*) end:
+	The keyword marking the end of the for loop block.
+
+
+
+
+
+
+
+
+	
+
+
+
+	while: for repeatedly executing code as long as a condition is 	true.
+
+3) loop control (jumping) statement
+
+	break : for exit or terminate the loop
+	continue: for skipping the current iteration of a loop and proceeding to the next.
+
+4) Exception handling:
+
+	try, catch, finally
+

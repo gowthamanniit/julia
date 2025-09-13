@@ -1,0 +1,84 @@
+1. arithmetic operator
+	
+	+	addition
+	-	subtraction
+	*	multiplication
+		note: suppose two variables in string type means 		concatenation
+	/	division (quotient values)
+	^ 	power ex: x^y (raises x to the yth power)
+	%	modules : Returns the remainder of a division
+
+2)bitwise operator
+
+	&	bitwise and
+	|	bitwise or
+	~	bitwise Not
+	<<	leftshift
+	>>	rightshift
+
+	binary  decimal
+	8421
+	0000	0
+	0001    1
+	0010	2
+	0011	3
+	0100	4
+	0101	5
+	0110	6
+	0111	7
+	1000	8
+	1001	9
+	1010	10
+	1011	11
+	1100	12
+	1101	13
+	1110	14
+	1111	15
+
+       10000	16.......
+	
+3) logical operator
+
+	&&	logical and
+	note: any one condition is false , result will be false
+
+	||	logical or
+		note:
+		any one condition is true, result will be true
+
+	!	logical not
+		note:
+		true means false, false means true
+
+4) Assignment operator
+
+	=
+	+=	a+=b  		a=a+b
+	-=	a-=b		a=a-b
+	*=	a*=2		a=a*2
+	^=
+	%=
+	/=
+	\=
+
+5) vectorized dot(.) operator
+
+	meaning: the dot operator is used to perform element wise binary operation on given array.
+
+	syntax: 
+	
+	x=x.^2
+
+6) relational operator
+
+	<
+	<=
+	>
+	>=
+	==
+	!=
+
+
+
+	
+	

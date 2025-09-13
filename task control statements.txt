@@ -1,0 +1,20 @@
+1) greatest among 2 numbers
+2) given no. is even or odd
+3) given age is eligible to vote
+4) given year is leap year or not
+5) given number is positive/negative/zero
+6) enter age and gender 
+	eligible to marriage (male && age 23)
+	eligible to marriage (female && age 21)
+7) eb bill:
+	enter unit: 150
+	total amount:  100
+
+condition:
+	unit<=100 --------> rs. 0/unit
+	101 to 200--------> rs. 2/unit
+	201 to 300--------> rs. 3/unit
+	301 to 400--------> rs. 4/unit
+	401 onwards-------> rs. 5/unit
+
+
