@@ -6,7 +6,7 @@ for i = 1:3:n
 print("  $i ")
 end
 
-#second parameter is increment position
+#second parameter is decrement position (- important)
 for i = n:-2:1
 print("  $i ")
 end
