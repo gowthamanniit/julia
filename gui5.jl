@@ -11,9 +11,9 @@ label=GtkLabel("Enter Your name and click the button")
 btn=GtkButton("Submit")
 
 #Button click action
-signal_connect(btn,"clicked")do widget
-    name=Gtk.GAccessor.text(entry)
-    set_gtk_property!(label,:label,"hai $name")
+signal_connect(btn,"clicked") do widget
+    txt=Gtk.GAccessor.text(entry)
+    set_gtk_property!(label,:label,txt)
     # println("button clicked")
 end
 #layout
