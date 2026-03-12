@@ -13,7 +13,8 @@ btn=GtkButton("Submit")
 #Button click action
 signal_connect(btn,"clicked") do widget
     txt=Gtk.GAccessor.text(entry)
-    set_gtk_property!(label,:label,txt)
+    ans=unsafe_string(txt)
+    set_gtk_property!(label,:label,ans)
     # println("button clicked")
 end
 #layout
